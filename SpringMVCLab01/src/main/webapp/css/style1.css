@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+body{
+	background-color:"red";
+}
+
+.userForm {
+	font-weight: bolder;
+	color: blue;
+	font-size:32px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  height: 50px;
+  vertical-align: bottom;
+  border-bottom: 1px solid #ddd;
+}

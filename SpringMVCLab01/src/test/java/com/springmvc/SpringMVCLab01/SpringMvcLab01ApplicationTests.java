@@ -1,10 +1,10 @@
-package com.sadaf.SprinMCVLab01;
+package com.springmvc.SpringMVCLab01;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SprinMcvLab01ApplicationTests {
+class SpringMvcLab01ApplicationTests {
 
 	@Test
 	void contextLoads() {

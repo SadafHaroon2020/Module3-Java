@@ -1,4 +1,4 @@
-package com.springmvc.model;
+package com.springmvc.SpringMVCLab01.model;
 
 /*13. Create a new class User. Inside the class add private fields String “firstName”, 
  * String “lastName”, String “userName”, String “gender”, ContactInfo “contactInfo”, PrivateInfo “privateInfo”.

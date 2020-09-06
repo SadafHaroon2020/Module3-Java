@@ -8,8 +8,8 @@
 </head>
 <body>
 
-<h1>Welcome to home</h1>
-<a href= "form" >go to form</a>
+<h1>Welcome to Home</h1>
+<a href= "form" >Check Form</a>
 
 </body>
 </html>

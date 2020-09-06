@@ -1,4 +1,4 @@
-package com.springmvc.model;
+package com.springmvc.SpringMVCLab01.model;
 
 
 /*11. Create a new class ContactInfo.
@@ -8,7 +8,7 @@ Create public getters and setters for them.
 public class ContactInfo {
 
 	private String email;
-	private String phonenumber;
+	private String phoneNumber;
 	private String linkedInUrl;
 	
 	public String getEmail() {
@@ -17,11 +17,12 @@ public class ContactInfo {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public String getPhonenumber() {
-		return phonenumber;
+	
+	public String getPhoneNumber() {
+		return phoneNumber;
 	}
-	public void setPhonenumber(String phonenumber) {
-		this.phonenumber = phonenumber;
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
 	}
 	public String getLinkedInUrl() {
 		return linkedInUrl;

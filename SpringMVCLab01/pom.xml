@@ -8,10 +8,10 @@
 		<version>2.3.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sadaf</groupId>
-	<artifactId>SprinMCVLab01</artifactId>
+	<groupId>com.springmvc</groupId>
+	<artifactId>SpringMVCLab01</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SprinMCVLab01</name>
+	<name>SpringMVCLab01</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -24,6 +24,8 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+
+
 <dependency>
 		   <groupId>org.springframework.boot</groupId>
      <artifactId>spring-boot-starter-tomcat</artifactId>
@@ -34,7 +36,6 @@
      <artifactId>tomcat-embed-jasper</artifactId>
      <scope>provided</scope>
    </dependency>
-
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -55,21 +56,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			
-			
-			<plugin>
-  <artifactId>maven-war-plugin</artifactId>
-  
-  <configuration>
-    <failOnMissingWebXml>false</failOnMissingWebXml>
-  </configuration>
-</plugin>
-
-			
 		</plugins>
-		
-		
-		
 	</build>
 
 </project>

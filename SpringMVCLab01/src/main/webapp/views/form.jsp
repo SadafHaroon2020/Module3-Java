@@ -3,11 +3,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<link rel="stylesheet" href="css/style1.css">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>User Form</title>
 </head>
 <body>
-
+<div class="userForm"><p>User Form</p></div>
 <!-- a).Header Message saying that it is a user form.
 b). form with the input fields below:
 c). First Name
@@ -20,7 +21,7 @@ i). LinkedIn URL
 j). Social Security Number
 k). Credit Card Number
 l). Date of Birth -->
-	<form action = "process-form" method= "post" modelAttribute="form">
+	<form action = "process-form" method= "post" >
 		First Name 			   : <input type="text" name="firstName"/><br>
 		Last Name 			   : <input type="text" name="lastName"/><br>
 		User Name			   : <input type="text" name="userName"/><br>
